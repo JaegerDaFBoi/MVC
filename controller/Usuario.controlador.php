@@ -27,5 +27,10 @@ class UsuarioControlador extends Controlador
         $nombre=$_POST['nombre'] ?? "";
         $correo=$_POST['correo'] ?? "";
         $contrasena=$_POST['contrasena'] ?? "";
+
+        $usuario = new Usuario($cedula,$nombre,$correo,$contrasena);
+        $usuario->guardar();
+
+        echo "Guardado";
     }
 }

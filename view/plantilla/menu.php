@@ -24,11 +24,11 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">
+          <a class="navbar-item" href="<?php echo APP_URL; ?>/usuario/inicio">
             Listar
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" href="<?php echo APP_URL;?>/view/usuario/crear.php">
+          <a class="navbar-item" href="<?php echo APP_URL; ?>/usuario/crear">
             Crear
           </a>
         </div>
